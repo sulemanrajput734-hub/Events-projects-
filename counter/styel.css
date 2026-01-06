@@ -1,0 +1,95 @@
+
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1d2671, #c33764);
+    color: #fff;
+}
+
+/* Main Heading */
+body > h1 {
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Card Container */
+.container {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 30px 40px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+}
+
+/* Counter Title */
+.container h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Counter Number */
+#count {
+    font-size: 60px;
+    font-weight: 600;
+    margin: 20px 0 30px;
+    color: #ffeb3b;
+    transition: transform 0.2s ease;
+}
+
+/* Buttons */
+button {
+    width: 130px;
+    padding: 12px;
+    margin: 8px 5px;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Increment Button */
+#increment {
+    background: linear-gradient(135deg, #00c6ff, #2d5f9b);
+    color: #fff;
+}
+
+#increment:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,114,255,0.6);
+}
+
+/* Decrement Button */
+#decrement {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    color: #fff;
+}
+
+#decrement:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(255,75,43,0.6);
+}
+
+
+
+
+ 
